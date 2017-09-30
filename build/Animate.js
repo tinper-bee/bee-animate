@@ -8,6 +8,10 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
+var _propTypes = require('prop-types');
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
 var _ChildrenUtils = require('./ChildrenUtils');
 
 var _AnimateChild = require('./AnimateChild');
@@ -48,18 +52,18 @@ function getChildrenFromProps(props) {
 function noop() {}
 
 var propTypes = {
-  component: _react.PropTypes.any,
-  animation: _react.PropTypes.object,
-  transitionName: _react.PropTypes.oneOfType([_react.PropTypes.string, _react.PropTypes.object]),
-  transitionEnter: _react.PropTypes.bool,
-  transitionAppear: _react.PropTypes.bool,
-  exclusive: _react.PropTypes.bool,
-  transitionLeave: _react.PropTypes.bool,
-  onEnd: _react.PropTypes.func,
-  onEnter: _react.PropTypes.func,
-  onLeave: _react.PropTypes.func,
-  onAppear: _react.PropTypes.func,
-  showProp: _react.PropTypes.string
+  component: _propTypes2["default"].any,
+  animation: _propTypes2["default"].object,
+  transitionName: _propTypes2["default"].oneOfType([_propTypes2["default"].string, _propTypes2["default"].object]),
+  transitionEnter: _propTypes2["default"].bool,
+  transitionAppear: _propTypes2["default"].bool,
+  exclusive: _propTypes2["default"].bool,
+  transitionLeave: _propTypes2["default"].bool,
+  onEnd: _propTypes2["default"].func,
+  onEnter: _propTypes2["default"].func,
+  onLeave: _propTypes2["default"].func,
+  onAppear: _propTypes2["default"].func,
+  showProp: _propTypes2["default"].string
 };
 
 var defaultProps = {
