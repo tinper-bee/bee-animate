@@ -339,6 +339,6 @@ class Animate extends Component{
   }
 };
 Animate.defaultProps = defaultProps;
-Animate.propTypes = Animate.propTypes;
+Animate.propTypes = propTypes;
 
 export default Animate;
