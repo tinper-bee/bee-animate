@@ -1,3 +1,7 @@
+/**
+* This source code is quoted from rc-animate.
+* homepage: https://github.com/react-component/animate
+*/
 import React from 'react';
 
 export function toArrayChildren(children) {
